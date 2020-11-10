@@ -10,7 +10,14 @@ Sig_Eqs %>%
   group_by(COUNTRY) %>% 
   summarize(EachC_total_death=sum(TOTAL_DEATHS,na.rm = T)) %>% 
   arrange(desc(EachC_total_death))
-  
+# @MingYANG recommended:
+# the pipe operation %>% means to send the data to next step
+# that also means this operation will not be saved if
+# Highly recommended that using "<-"in line 8 to save this procedure.
+# just like:  "Total_Death <- Sig_Eqs %>%"
+# this is nothing with your score but just a recommendation
+# the end
+
 #1.3
 Sig_Eqs %>% 
   select(YEAR,EQ_PRIMARY) %>%
@@ -48,3 +55,4 @@ CountEq_LargestEq<-function(country){
 List(Count_EQ,country)
   return(Count_EQ)
 }
+#good work
