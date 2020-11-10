@@ -10,7 +10,7 @@ sz_tbl %>%
   select(date,S)%>%
   ggplot(aes(x=date,y=S))+
   geom_line()
-
+# good work 
 
  
  
