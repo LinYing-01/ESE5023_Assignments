@@ -11,6 +11,9 @@ wind.tbl %>%
   filter(substr(WND,7,7)=="N") %>% 
   filter(substr(WND,14,14)=="1")%>%
   mutate(speed_rate=as.numeric(substr(WND,9,12))) %>% 
+# special notice here: the SCALING FACTOR is 10
+# so using the original data is not the true wind speed
+# you should multiply 0.1  （1/10）
   mutate(date_month=as.numeric(paste(substr(DATE,1,4),substr(DATE,6,7),sep = ""))) %>% 
   select(date_month,speed_rate) %>% 
   group_by(date_month) %>% 
