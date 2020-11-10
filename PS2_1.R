@@ -56,3 +56,6 @@ List(Count_EQ,country)
   return(Count_EQ)
 }
 #good work
+# something should be noticed in your report:
+# the plot should be presented in your report, and 
+# some necessary analysis to explain the plot
