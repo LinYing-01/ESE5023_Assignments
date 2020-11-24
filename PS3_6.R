@@ -18,10 +18,14 @@ summary(t)
 model <- lm(perf~syct+mmin+mmax+cach+chmax, data = train)
 summary(model)
 predict <- predict(model, test)
-a <- seq(1,42,1)
+a <- seq(1,42,1)  # what this variable defined for?
 test_new <- as.data.frame(test)
 plot(predict, test_new$perf, xlab = 'Predict', ylab = 'True')
 model2 <- lm(pre~test_new$perf)
 summary(model2)
 abline(model2)
 sqrt(mean((test_new$perf - pre)^2)/42)
+# MingYANG noticed:
+# using the following analysis is enough:
+# mean(test$perf - predict(model_1,test))
+# the end
