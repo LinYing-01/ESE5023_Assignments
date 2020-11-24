@@ -23,4 +23,6 @@ npv <- Zn_tbl %>%
   pull(Zinc)
 t.test(pn,pv)
 t.test(pv,npv)
-  
+# MingYANG noticed
+# Is there evidence that the means are different for the different bones? Does the dataset support Tyrannosaurus Rex is warm-blooded or not？
+# the end
