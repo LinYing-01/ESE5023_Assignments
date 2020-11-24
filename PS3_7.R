@@ -24,3 +24,5 @@ Boston_test  <- Boston[-sample_index,]
 model_1 <- lm(medv~crim+zn+chas+nox+rm+dis+rad+tax+ptratio+black+lstat, data=Boston_train)
 model_1 <- lm(medv ~ ., data=Boston_train)
 summary(model_1)
+
+# good work
