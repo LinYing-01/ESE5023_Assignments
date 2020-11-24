@@ -16,3 +16,6 @@ ggplot(Tyrannosaurus, aes(x = Bone, y = Oxygen.isotopic.composition , fill = Bon
   theme_classic()
 #从图形中也可看出两者存在差异
 #以上可以证明雷克斯暴龙是温血动物
+
+# MingYANG noticed:
+# wrong conclusion!
