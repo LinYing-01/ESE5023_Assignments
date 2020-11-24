@@ -7,3 +7,5 @@ model <- lm(Temp~Elevation)
 coef(model)
 summary(model)
 abline(model)
+
+# good work
