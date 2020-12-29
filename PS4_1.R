@@ -70,3 +70,7 @@ title(main=paste("JAN"),
       cex.main=1,font.main=2)
 map('world',add=T,lwd=0.75,col="purple")
 box(lwd=5)
+
+# MingYANG noticed:
+# time series is too simple, which has no difference with the example of 1 point plot given by Prof.ZHU 
+# the end
