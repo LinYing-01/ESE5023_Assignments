@@ -72,3 +72,7 @@ Relative_bias_per <- Relative_bias*100
 print(paste("Relative bias:",Relative_bias_per,"%",sep = ""))
 #Relative bias = 1.4%
 #预测效果挺好，偏差很小
+
+# MingYANG noticed:
+# Describe the fitting process in details in your report.
+# the end
