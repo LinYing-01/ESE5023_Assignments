@@ -52,3 +52,5 @@ plot(mask_srad, col=col, main="China_srad contour in Jun")
 contour(mask_srad, add=T, level=20000, col="red")
 contour(mask_srad, add=T, level=22000, col="red")
 #如图，两者交叉区域可作为PV farms选址
+
+# good work
